@@ -1,0 +1,96 @@
+.box1{
+    Width: 300px;
+    Height: 150px;
+    Background-color: lightblue;
+    Border: 2px solid navy;
+    margin: 10px;
+}
+.box1text{
+    color: darkblue;
+    Font-size : 16px;
+}
+.b1{
+    background-color: red;
+    Width: 100px;
+    Height: 40px;
+    Border: none;
+}
+.b2{
+    background-color: green;
+    Width: 100px;
+    Height: 40px;
+    Border: none;
+}
+.b3{
+    background-color: yellow;
+    Width: 100px;
+    Height: 40px;
+    Border: none;
+    margin: 10px;
+}
+.circle{
+    Width: 100px;
+    Height: 100px;
+    Border-radius: 50%;
+    Background-color: orange;
+    Border: 2px dashed brown;
+
+}
+.card1{
+    margin: 15px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid grey;
+    background: linear-gradient(blue,purple);
+}
+
+/* header css for d4t2.html */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    color: white;
+    margin-top: 0%;
+    border-bottom: 3px solid darkcyan;
+}
+.contentbox{
+    width: 400px;
+    height: 200px;
+    margin: 20px 10px;
+    
+    background-color: lightgray;
+    border: 2px dashed black;
+    color: #333;
+}
+.profilecard{
+    Width: 300px;
+    Height: 350px;
+    margin: 20px;
+    color: white;
+    background-image: url("https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D");
+    Background-size: cover;
+    Background-repeat: no-repeat;
+    Background-position: center;
+    border-radius: 10px;
+    border: 10px solid black;
+
+}
+.info{
+    margin-top: 80%;
+    color:white;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right,#4b6cb7,#182848);
+    border-top: 3px solid #000;
+    color: white;
+}
+.notification{
+   Width: 250px;
+    Height: 100px;
+    Background-color: #fff3cd;
+    Border-left: 5px solid #ffc107;
+    color: #856404;
+
+}

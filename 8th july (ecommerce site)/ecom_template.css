@@ -1,0 +1,193 @@
+body {
+      font-family: Arial, sans-serif;
+      background: white;
+      margin: 0;
+      padding: 0;
+    }
+.topbar{ 
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #252525;
+}
+.topleft{
+    font-size: 11px;    
+}
+.topright{
+    color: white;
+     font-size:x-large;
+}
+i{
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items:fl;
+    justify-content: space-between;
+    margin: 0 5%;
+    background-color: rgb(255, 255, 255);
+}
+.brand-logo{
+    color: rgb(85, 155, 85);font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+span i{
+    color: black;
+}
+.nav-link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10%;
+    
+}
+.nav-link a{
+    color: black;
+    text-decoration:none;
+}
+.quickmenu{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    padding: 0 5px;
+}
+sup{
+    background-color: rgb(241, 241, 241);
+    border-radius: 50%;
+}
+.spotlight{
+    background-color: rgb(241, 241, 241);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding:0px 5%;
+    gap: 10px;
+}
+.spotimg{
+    flex-basis: .75;
+}
+.comouting{
+    height: 400px;
+    
+}
+.comheading{
+    text-align: center;
+}
+.com{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0  10px;
+    
+}
+.comp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+    height: fit-content;
+    align-items: center;
+}
+.imgcom{
+    height:150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow:hidden;
+    box-shadow: 2px 2px inset;
+
+}
+.btn{
+    padding: 5px 10px ;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size:14px ; color: white;
+    background-color: rgb(85, 155, 85);
+    font-style: bold;
+
+}
+.footer{
+    font-weight: lighter;
+    background-color: rgb(31, 31, 31);
+    color: white;padding: 10px 10% 0 10%;
+}
+.footcontainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.footcontainer a{
+    color: white;
+    text-decoration: none;
+}
+.ZSHOP{
+    color:rgb(85, 155, 85);
+}
+.socials{
+    font-size: larger;
+    word-spacing: 2px;
+}
+.foot2{
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+
+    padding: 5px 0;
+}
+hr{
+   border: none;
+    height: 0.5px; 
+    background-color: #333;
+}
+
+.form{
+    border:1px solid black ;
+    height: 0.5px; 
+    background-color: #333;
+    gap: 0px;
+}
+input{
+    border: 1px solid whitesmoke;
+    background-color: #252525;
+}
+.subscribe{
+    background-color:rgb(85, 155, 85);
+    color: white;
+    padding:2px 5px;
+}
+.featuresect{
+    background-color: rgb(241, 241, 241);
+   height: fit-content;
+    padding: 10px 0 15px 0;
+}
+.fcom{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    align-items: center;
+    padding:0 5%;
+}
+.featurecard{
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    padding: 0 2px;
+    justify-content: flex-start;
+
+    
+}
+.rpcard{
+    display: flex;
+    justify-content: space-between;
+   gap: 3px;
+}
+.rating{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
