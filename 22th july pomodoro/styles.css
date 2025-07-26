@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+    cursor: help;
+}
+
+.container {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    gap: 10PX;
+    padding: 5px 5%;
+    width: 100%;
+}
+
+.timer-setting {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    padding: 10PX;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer-setting input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#settime {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    width: 80%;
+}
+
+.timerdisplay {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    padding: 15PX;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#completedcycles {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pomodoro-cycle-dot {
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.pomodoro-cycle-dot.completed {
+    background-color: #FF6B6B;
+}
+
+#downtime {
+    font-size: 50PX;
+    color: #292929;
+}
+
+.sessionactive {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10px;
+}
+
+.sessionactive div {
+    background-color: #eee;
+    padding: 5px 5%;
+    border-radius: 20px;
+    color: #666;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#worksession.active {
+    background-color: #FF6B6B;
+    color: white;
+}
+
+#sbreaksession.active {
+    background-color: #6BBEFF;
+    color: white;
+}
+
+#lbreaksession.active {
+    background-color: #6BFF8C;
+    color: white;
+}
+
+.controls {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.controls button {
+    background-color: #007bff;
+    color: white;
+    padding: 5PX 10PX;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.controls button#start-btn {
+    background-color: #28a745;
+}
+
+.controls button#pause-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.controls button#reset-btn {
+    background-color: #dc3545;
+}
