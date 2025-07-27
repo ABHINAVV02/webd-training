@@ -17,11 +17,6 @@ A simple web app that fetches and displays current weather data for a city using
 3. Open the `index.html` in a browser.
 4. Enter a city name and submit to see the current weather.
 
-## (Optional) 5-Day Forecast Method
-- Fetch 5-day forecast data from OpenWeatherMap.
-- Extract one forecast per day from the provided 3-hour interval data.
-- Display daily temperature, weather icons, and descriptions dynamically.
-
 ## Testing
 
 - Use browser Developer Tools (Console & Network tab) to inspect API requests and responses.
