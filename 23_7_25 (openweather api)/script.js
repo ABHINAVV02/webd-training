@@ -1,4 +1,4 @@
-const apiKey = 'Enter OpenWeather_API_Key Here';
+const apiKey = 'Your_API_Key';
 
 //defining variables
 const Form = document.getElementById('Form');
