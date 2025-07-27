@@ -1,6 +1,6 @@
 ## Weather App using OpenWeatherMap API
 
-<img src="images/weather-icon.png" alt="Weather app" height="300px" width="50%" />
+<img src="./weather-static.PNG" alt="Weather app" height="300px" width="50%" />
 <img src="./weather-app.PNG" alt="Weather app" height="300px" width="50%" />
 
 ## Overview
